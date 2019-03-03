@@ -17,3 +17,16 @@ ls -1 ---------> Pipe ---------> wc -l --------->   Terminal
 ```
 
 Ex : ps -ef | grep mongod
+
+<h1>What is the Aggregation Pipeline?</h1>
+<h3>A series of Document Transformations</h3>
+<ul>
+    <li>Executed in stages</li>
+    <li>Original input is a collection</li>
+    <li>Output as a cursor or a collection</li>
+    <li> 
+        ```
+        $match -----> $project -----> $group -----> $sort
+        ```
+    </li>
+</ul>
