@@ -1,12 +1,11 @@
 <h1>Analytics in MongoDB</h1>
 
-CRUD Analytics
-
 ```
-CREATE ---------> Database ---------> Group
-READ ---------> (MongoDB) ---------> COUNT
-UPDATE ---------> ---------> DERIVE VALUES
-DELETE ---------> ---------> FILTER, AVERAGE, SORT
+CRUD                                  Analytics
+CREATE ---------> Database  ---------> Group
+READ   ---------> (MongoDB) ---------> COUNT
+UPDATE --------->           ---------> DERIVE VALUES
+DELETE --------->           ---------> FILTER, AVERAGE, SORT
 ```
 
 <h1>Core Concept : Pipeline</h1>
@@ -24,11 +23,11 @@ Ex : ps -ef | grep mongod
     <li>Executed in stages</li>
     <li>Original input is a collection</li>
     <li>Output as a cursor or a collection</li>
-    <li> 
-        ```
-        $match -----> $project -----> $group -----> $sort
-        ```
-    </li>
+
+```
+$match -----> $project -----> $group -----> $sort
+```
+
 </ul>
 
 <h3>Rich Library of functions</h3>
