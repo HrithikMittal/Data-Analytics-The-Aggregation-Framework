@@ -30,3 +30,10 @@ Ex : ps -ef | grep mongod
         ```
     </li>
 </ul>
+
+<h3>Rich Library of functions</h3>
+<ul>
+    <li>Filter, compute, group, and summarize data</li>
+    <li>Output of one stage sent to input of next</li>
+    <li>Operation executed in sequential order</li>
+</ul>
