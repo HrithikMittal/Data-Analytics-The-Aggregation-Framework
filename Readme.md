@@ -49,4 +49,16 @@ $match -----> $project -----> $group -----> $sort
     <li>pipeling operators</li>
 </ol>
 
+<h3>Some Popular Pipeline Operators</h3>
 
+```
+    $match       ---> Filter documents
+    $project     ---> Reshape documents
+    $group       ---> Summarize documents
+    $unwind      ---> Expand arrays in documents
+    $sort        ---> Order documents
+    $limit/$skip ---> Paginate documents
+    $redact      ---> Restrict documents
+    $geoNear     ---> Proximity sort documents
+    $let,$map    ---> Define variables
+```
