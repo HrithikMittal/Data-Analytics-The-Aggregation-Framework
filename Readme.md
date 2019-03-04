@@ -36,3 +36,17 @@ $match -----> $project -----> $group -----> $sort
     <li>Output of one stage sent to input of next</li>
     <li>Operation executed in sequential order</li>
 </ul>
+
+<h3>Syntax For an Aggregation</h3>
+```
+>db.foo.aggregate([{ stage1 },{ stage2 },{ stage3 }, .... ])
+```
+<ol>
+    <li>db - variable pointing to current database</li>
+    <li>collection name</li>
+    <li>agggregate - method on collection</li>
+    <li>array of objects, each a pipeline operator</li>
+    <li>pipeling operators</li>
+</ol>
+
+
