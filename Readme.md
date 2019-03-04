@@ -38,9 +38,11 @@ $match -----> $project -----> $group -----> $sort
 </ul>
 
 <h3>Syntax For an Aggregation</h3>
+
 ```
 >db.foo.aggregate([{ stage1 },{ stage2 },{ stage3 }, .... ])
 ```
+
 <ol>
     <li>db - variable pointing to current database</li>
     <li>collection name</li>
