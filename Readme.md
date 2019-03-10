@@ -41,6 +41,8 @@ $match -----> $project -----> $group -----> $sort
 <h3>Syntax For an Aggregation</h3>
 
 ```
+aggreate() method
+>db.COLLECTION_NAME.aggregate(AGGREGATE_OPERATION)
 >db.foo.aggregate([{ stage1 },{ stage2 },{ stage3 }, .... ])
 ```
 
@@ -63,5 +65,6 @@ $match -----> $project -----> $group -----> $sort
     $limit/$skip ---> Paginate documents
     $redact      ---> Restrict documents
     $geoNear     ---> Proximity sort documents
-    $let,$map    ---> Define variables
+    $let         ---> Define variables
+    $map         ---> Define variables
 ```
