@@ -1,4 +1,18 @@
 ![Mongo DB](https://cdn-images-1.medium.com/max/1200/1*Mx3MUKkPENbaIR-vKGeLDw.jpeg)
+<h1>How to run?</h1>
+For insall jupyter notebook
+
+```
+pip install jupyter notebook
+```
+<br />
+To run type in your terminal
+
+```
+jupyter notebook
+```
+       
+
 <h1>Analytics in MongoDB</h1>
 
 ```
