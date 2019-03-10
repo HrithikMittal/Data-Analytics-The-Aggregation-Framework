@@ -1,3 +1,4 @@
+![Mongo DB](https://cdn-images-1.medium.com/max/1200/1*Mx3MUKkPENbaIR-vKGeLDw.jpeg)
 <h1>Analytics in MongoDB</h1>
 
 ```
