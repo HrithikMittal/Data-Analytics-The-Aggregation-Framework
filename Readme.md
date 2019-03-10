@@ -63,5 +63,6 @@ $match -----> $project -----> $group -----> $sort
     $limit/$skip ---> Paginate documents
     $redact      ---> Restrict documents
     $geoNear     ---> Proximity sort documents
-    $let,$map    ---> Define variables
+    $let         ---> Define variables
+    $map         ---> Define variables
 ```
