@@ -41,6 +41,7 @@ $match -----> $project -----> $group -----> $sort
 <h3>Syntax For an Aggregation</h3>
 
 ```
+aggreate() method
 >db.COLLECTION_NAME.aggregate(AGGREGATE_OPERATION)
 >db.foo.aggregate([{ stage1 },{ stage2 },{ stage3 }, .... ])
 ```
